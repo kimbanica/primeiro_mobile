@@ -20,10 +20,19 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "br.com.monicanascimento.meuprimeiromobile"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bca1449a-0efb-40cb-8d28-01c158c8264e"
+      }
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
